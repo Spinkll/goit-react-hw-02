@@ -1,8 +1,8 @@
 import "./App.css";
-import { Description } from "./components/Description/Description";
-import { Options } from "./components/Options/Options";
-import { Feedback } from "./components/Feedback/Feedback";
-import { Notification } from "./components/Notification/Notification"; // Переконайтеся, що цей компонент існує
+import Description from "./components/Description/Description";
+import Options from "./components/Options/Options";
+import Feedback from "./components/Feedback/Feedback";
+import Notification from "./components/Notification/Notification";
 import { useEffect, useState } from "react";
 
 function App() {
